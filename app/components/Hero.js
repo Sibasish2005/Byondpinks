@@ -2,10 +2,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Hero = () => {
-  return (
+  return (  
     <div className="relative w-full h-[600px] md:h-[700px] overflow-hidden bg-gray-100">
       {/* Background Image Placeholder (Ideally dynamic or from assets) */}
       <div className="absolute inset-0 bg-neutral-200">
+    <div> Version Update</div>
          <Image 
             src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop"
             alt="Summer collection"
